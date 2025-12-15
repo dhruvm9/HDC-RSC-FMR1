@@ -20,8 +20,8 @@ from wrappers import *
 #%% 
 
 data_directory = '/media/DataDhruv/Recordings/Edinburgh-FMR1'
-# datasets = np.genfromtxt(os.path.join(data_directory,'dataset_CueRot_WT.list'), delimiter = '\n', dtype = str, comments = '#')
-datasets = np.genfromtxt(os.path.join(data_directory,'dataset_CueRot_KO.list'), delimiter = '\n', dtype = str, comments = '#')
+datasets = np.genfromtxt(os.path.join(data_directory,'dataset_CueRot_WT.list'), delimiter = '\n', dtype = str, comments = '#')
+# datasets = np.genfromtxt(os.path.join(data_directory,'dataset_CueRot_KO.list'), delimiter = '\n', dtype = str, comments = '#')
 
 meanupdur_hdc = [] 
 meandowndur_hdc = []
